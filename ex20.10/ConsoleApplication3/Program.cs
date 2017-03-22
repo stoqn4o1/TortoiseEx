@@ -19,27 +19,7 @@ namespace ConsoleApplication3
 
             int answer = int.Parse(Console.ReadLine());
 
-            if (answer == numb1*numb2)
-            {
-                int responce = numbsGenerator.Next(1, 4);
-                switch(responce)
-                {
-                    case 1:
-                        Console.WriteLine("Congrats!");
-                        break;
-                    case 2:
-                        Console.WriteLine("You're on fire!");
-                        break;
-                    default:
-                        Console.WriteLine("Correct!");
-                        break;
-                }
-
-            }
-            else
-            {
-                Console.WriteLine("You don't know shit...");
-            }
+            
 
             Console.ReadKey();
 
